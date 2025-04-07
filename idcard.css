@@ -1,0 +1,77 @@
+.idcard{
+    height: 300px;
+    width: 465px;
+    border: 2px solid rgb(231, 220, 220);
+    border-radius: 1rem;
+    position: relative ;
+    
+    }
+    
+    .student{
+        height: 300px;
+        width: 100px;
+        background-color: rgb(201, 201, 49);
+        float: right;
+        justify-content: center;
+        position: relative;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    p{
+        position: absolute;
+        font-family:Arial,Helvetica, sans-serif;
+        transform: translateX(-100%) rotate(-90deg);
+        transform-origin: right;
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+        margin-left: 50px;
+        margin-right: 50px; 
+    }
+    
+    /*.pic{
+        height: 178px;
+        width: 110px;
+    }*/
+    
+    img{
+        height: 150px;
+        width: 100px;
+        margin-top: 28px;
+        margin-left: 10px ;
+        display: inline;
+    }
+    
+    #logo{
+        position: absolute;
+        height: 70px;
+        width: 200px;
+        margin-top: -90px;
+        margin-left: 35px;
+    }
+    
+    .info{
+        position: absolute;
+        top: 80px;
+        text-align: left;
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        /*margin-bottom: 400px;
+        margin-left: 130px;*/
+    }
+    
+    
+    span{
+        position: absolute;
+        font-size:23px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left:20px;
+        margin-top: 70px;
+        
+    }
+     .barcode{
+        width: 215px;
+        height: 100px;
+        margin-top: 10px;
+        margin-left: 85px;
+     }
